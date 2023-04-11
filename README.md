@@ -45,9 +45,12 @@ API Endpoints
 This server provides the following API endpoints:
 
 GET /planets: Retrieve the list of exoplanets.
+
 GET /launches: Retrieve the list of launches.
+
 POST /launches: Schedule a new launch.
-DELETE /launches/:id: Abort a scheduled launch.
+
+DELETE /launches/id: Abort a scheduled launch.
 
 
 License
