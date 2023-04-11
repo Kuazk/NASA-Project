@@ -1,0 +1,30 @@
+{
+  "name": "nasa-project-api",
+  "version": "1.0.0",
+  "description": "NASA-mission-controll-api",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "jest",
+    "test-watch": "jest --watch",
+    "start": "node src/server.js",
+    "watch": "nodemon src/server.js",
+    "cluster": "pm2 start src/server.js -i max"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.245.0",
+    "aws-sdk": "^2.1293.0",
+    "cors": "^2.8.5",
+    "csv-parse": "^5.3.3",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20",
+    "pm2": "^5.2.2",
+    "supertest": "^6.3.3"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
