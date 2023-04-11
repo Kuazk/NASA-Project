@@ -1,9 +1,9 @@
-NASA Mission Control Dashboard
+# NASA Mission Control Dashboard
 
 This server-side application, written in JavaScript with Node.js and Express, provides the back-end functionality for the NASA Mission Control Dashboard, which is used to schedule missions targeting Kepler exoplanets.
 
 
-Table of Contents
+# Table of Contents
 1. Features
 2. Getting Started
 3. Installation
@@ -12,16 +12,16 @@ Table of Contents
 6. License
 
 
-Features
+# Features
 Data loading and management of Kepler exoplanets information.
 RESTful API for planets and launches data.
 Integration with AWS DynamoDB for data storage.
 Middleware configuration for CORS and logging.
 
-Getting Started
+# Getting Started
 To get started with this project, first ensure that you have a working client-side application.
 
-Installation
+# Installation
 Clone the repository to your local machine.
 
 git clone https://github.com/Kuazk/NASA-project.git
@@ -35,7 +35,7 @@ Install the required dependencies.
 npm install
 
 
-Running the Application
+# Running the Application
 
 Start the server by running the following command:
 
